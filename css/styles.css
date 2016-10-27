@@ -1,0 +1,673 @@
+
+        @import url('//fonts.googleapis.com/css?family=Graduate');
+        /*
+        	Here are the CSS styles of your website.
+        
+        	Bellow are some examples, like the styles which you can apply to your text in the text editor.
+        
+        	See this page for help on CSS
+        	https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+        
+        	In the advanced "Apollo" mode, you will be able to add CSS classes to Silex elements,
+        	and then apply a CSS style to it here.
+        */
+        
+        /* define a style for Title, Headings and Normal texts */
+        .title,
+        .heading1,
+        .heading2,
+        
+        .mouse{
+        cursor:  pointer;
+        }
+        
+        .line-1 {
+         Line-Height:40%!important;   
+        }
+        
+        .menu-right {
+            right:5%!important;
+            z-index:1000!important;
+        }
+        .menu-left {
+            left:5%!important;
+            z-index:1000!important;
+        }
+        
+        .text-element a:hover {
+        font-family: 'Open Sans', sans-serif;
+          font-size:95%;
+        font-weight: bold!important; 
+          color: white !important; 
+          background-color:transparent !important; 
+           text-decoration: none;
+        }
+        .text-element a {
+        font-family: 'Open Sans', sans-serif;
+          font-size:95%;
+        font-weight: normal!important; 
+            color: #4c4c4c !important; 
+          background-color:white !important; 
+        }
+        
+        
+        .none {
+            text-decoration:none !important;   
+        }
+        .nav {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.2em;
+            margin: 0px;
+            margin-bottom: 0px;
+            padding: 0px;
+            clear: both;  
+        }
+        .t2 {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6em;
+            margin: 0px;
+            margin-bottom: 10px;
+            padding: 0px;
+            font-weight: 300 !important;
+        }
+        .text-element H1 {
+            font-family: 'Graduate', sans-serif;
+        	color: #f0e8e6!important;
+            line-height: 35% !important;
+        	
+        }
+        .text-element H2 {
+            font-family: 'Open Sans', sans-serif;
+        	color: #f0e8e6!important;
+            line-height: 100% !important;
+        	
+        }
+        
+        .text-element H3 {
+            font-family: 'Graduate', sans-serif;
+        	color: #f0e8e6!important;
+           font-size:70px!important;
+            line-height: 0% !important;
+        	
+        }
+        .normal {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            margin: 0px;
+            margin-bottom: 10px;
+            padding: 0px;
+            clear: both;
+        }
+        
+        /* title style */
+        .title {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 100% !important;
+            margin: 0px;
+            margin-top: 0px;
+            padding-top: 0px;
+            font-weight: 300;
+        }
+        .justifier {
+            text-align: justify !important;
+        }
+        
+        .center-content{ 
+            z-index:1!important;
+            width:800px !important;
+            margin-left:-400px !important; 
+            left:50% !important; 
+            }
+        .full-width{
+            width:100% !important;
+            left: 0px !important;
+        }
+        .rotate_90{
+        transform:rotate(45deg); 
+        -ms-transform:rotate(45deg); /* Internet Explorer */
+        -moz-transform:rotate(45deg); /* Firefox */
+        -webkit-transform:rotate(45deg); /* Safari et Chrome */ 
+        -o-transform:rotate(45deg); /* Opera */
+        }
+        .shadow{
+            box-shadow: -1px 1px 0px rgba(0, 0, 0, 0.3);
+        }
+        .shadow-text{
+            text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+        }
+        .link-menu {
+          background-color: rgba(255, 255, 255, 0) !important;
+            /* Firefox */
+            -moz-transition: all 0.5s ease-out;
+            /* WebKit */
+            -webkit-transition: all 0.5s ease-out;
+            /* Opera */
+            -o-transition: all 0.5s ease-out;
+            /* Standard */
+            transition: all 0.5s ease-out;
+        }
+        .link-menu:hover {
+          background-color: rgba(255, 255, 255, 0.3) !important;
+            /* Firefox */
+            -moz-transition: all 0.1s ease-in;
+            /* WebKit */
+            -webkit-transition: all 0.1s ease-in;
+            /* Opera */
+            -o-transition: all 0.1s ease-in;
+            /* Standard */
+            transition: all 0.1s ease-in;
+        }
+        .link-menu.page-link-active {
+          background-color: rgba(255, 255, 255, 0.3) !important;
+            /* Firefox */
+            -moz-transition: all 0.1s ease-in;
+            /* WebKit */
+            -webkit-transition: all 0.1s ease-in;
+            /* Opera */
+            -o-transition: all 0.1s ease-in;
+            /* Standard */
+            transition: all 0.1s ease-in;
+        }
+        .btn_link{
+            padding-top: 10px !important;
+        }
+        .link-button {
+            line-height: 1em!important;
+            color:#4c4c4cff!important;
+            background-color:#f0e8e6 !important;
+            /* Firefox */
+            -moz-transition: all 0.5s ease;
+            /* WebKit */
+            -webkit-transition: all 0.5s ease;
+            /* Opera */
+            -o-transition: all 0.5s ease;
+            /* Standard */
+            transition: all 0.5s ease;
+        }
+        .link-button:hover {
+            line-height: 1em!important;
+            color:#4c4c4cff!important;
+            background-color: white !important;
+               box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8) !important;
+            /* Firefox */
+            -moz-transition: all 0.3s ease;
+            /* WebKit */
+            -webkit-transition: all 0.3s ease;
+            /* Opera */
+            -o-transition: all 0.3s ease;
+            /* Standard */
+            transition: all 0.3s ease;
+              text-decoration: none!important;
+        }
+        .link-button2 {
+            line-height: 1em!important;
+            color:white!important;
+            background-color:#4c4c4c !important;
+            /* Firefox */
+            -moz-transition: all 0.5s ease;
+            /* WebKit */
+            -webkit-transition: all 0.5s ease;
+            /* Opera */
+            -o-transition: all 0.5s ease;
+            /* Standard */
+            transition: all 0.5s ease;
+        }
+        .link-button2:hover {
+            line-height: 1em!important;
+            color:#5f5f5f!important;
+            background-color: #767676 !important;
+               box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8) !important;
+            /* Firefox */
+            -moz-transition: all 0.3s ease;
+            /* WebKit */
+            -webkit-transition: all 0.3s ease;
+            /* Opera */
+            -o-transition: all 0.3s ease;
+            /* Standard */
+            transition: all 0.3s ease;
+              text-decoration: none!important;
+        }
+        .full-ground{
+            z-index:2000!important;
+        }
+        
+        .fixed-menu{
+            position: fixed !important;
+            top: 0 !important;
+            z-index: 1000!important;
+            border-radius: 0 !important;
+        }
+        .text-fx3{
+               text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.8) !important;
+        }
+        .footer{
+            top:100%!important;
+        }
+        
+        .template{
+            position: fixed!important;
+        right: -10%!important;
+        top: -10px!important;
+        }
+        .social-menu{
+        top: 60px!important;
+        left:none!important;
+        right:0%!important;
+        }
+        .social-anim{
+            background-size:none!important;
+        }
+        .social-anim:hover{
+            background-size:80%!important;
+            transform:rotate(25deg); 
+        -ms-transform:rotate(25deg); /* Internet Explorer */
+        -moz-transform:rotate(25deg); /* Firefox */
+        -webkit-transform:rotate(25deg); /* Safari et Chrome */ 
+        -o-transform:rotate(25deg); /* Opera */
+        }
+    
+        .text-fx{
+            text-shadow: 0px 2px 1px #333;
+         }
+        .box-fx{
+            box-shadow: 2px 2px 0px #999;
+         }    
+        .box-fx2{
+            box-shadow: 0px 0px 4px #999;
+         }
+         .none-lien{
+             text-decoration:none!important;
+         }
+    .no-repeat{
+    background-repeat: no-repeat!important;}
+    
+        .silex-id-1439833715905-79 {
+            cursor: auto; 
+            background-color: rgb(240, 232, 230); 
+            background-size: auto; 
+        }
+        .silex-id-1439833715803-78 {
+            left: 56px; 
+            width: 834px; 
+            background-color: transparent; 
+            top: -5px; 
+            min-height: 2199px; 
+        }
+        .silex-id-1439840090668-2 {
+            width: 800px; 
+            top: 1651px; 
+            left: 17px; 
+            background-color: transparent; 
+            background-size: auto; 
+            min-height: 547px; 
+        }
+        .silex-id-1439840090669-3 {
+            z-index: 300; 
+            top: 43px; 
+            width: 760px; 
+            left: 20px; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+            border-image-source: none; 
+            background-color: transparent; 
+            min-height: 192px; 
+        }
+        .silex-id-1439840090669-4 {
+            z-index: 300; 
+            top: 143px; 
+            width: 761px; 
+            left: 20px; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+            border-image-source: none; 
+            background-color: transparent; 
+            min-height: 266px; 
+        }
+        .silex-id-1439840090670-5 {
+            z-index: 300; 
+            top: 353px; 
+            width: 220px; 
+            left: 554px; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+            border-image-source: none; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            background-color: transparent; 
+            min-height: 49px; 
+        }
+        .silex-id-1439833713880-59 {
+            width: 717px; 
+            top: 312px; 
+            background-color: rgb(36, 36, 36); 
+            background-size: cover; 
+            left: 64px; 
+            opacity: 0.8; 
+            min-height: 180px; 
+        }
+        .silex-id-1439839319905-0 {
+            width: 705px; 
+            top: 22px; 
+            left: 7px; 
+            opacity: 1; 
+            min-height: 187px; 
+        }
+        .silex-id-1439834147236-0 {
+            width: 705px; 
+            top: -2px; 
+            left: 6px; 
+            opacity: 1; 
+            min-height: 58px; 
+        }
+        .silex-id-1439840798793-6 {
+            width: 834px; 
+            top: 170px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+            background-image: url('../assets/01.jpg%5C'); 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 0px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-left-radius: 0px; 
+            border-top-right-radius: 0px; 
+            border-bottom-right-radius: 0px; 
+            border-bottom-left-radius: 0px; 
+            min-height: 179px; 
+        }
+        .silex-id-1439840833929-7 {
+            width: 833px; 
+            top: 361px; 
+            left: 0px; 
+            min-height: 157px; 
+        }
+        .silex-id-1439840870336-8 {
+            width: 834px; 
+            top: 568px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+            background-image: url('../assets/02.jpg%5C'); 
+            background-attachment: scroll; 
+            background-size: auto; 
+            min-height: 179px; 
+        }
+        .silex-id-1439840870380-9 {
+            width: 833px; 
+            top: 759px; 
+            left: 0px; 
+            min-height: 157px; 
+        }
+        .silex-id-1439841033473-10 {
+            width: 834px; 
+            top: 968px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+            background-image: url('../assets/03.jpg%5C'); 
+            background-attachment: scroll; 
+            background-size: auto; 
+            min-height: 179px; 
+        }
+        .silex-id-1439841033526-11 {
+            width: 833px; 
+            top: 1159px; 
+            left: 0px; 
+            min-height: 157px; 
+        }
+        .silex-id-1439842297865-16 {
+            width: 501px; 
+            top: 170px; 
+            left: 6px; 
+            background-color: rgb(255, 255, 255); 
+            min-height: 417px; 
+        }
+        .silex-id-1439842530338-17 {
+            width: 300px; 
+            top: 172px; 
+            left: 533px; 
+            min-height: 416px; 
+        }
+        .silex-id-1439844669806-18 {
+            width: 834px; 
+            top: 1360px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+            background-image: url('../assets/01.jpg%5C'); 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 0px; 
+            border-left-width: 0px; 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            border-top-left-radius: 0px; 
+            border-top-right-radius: 0px; 
+            border-bottom-right-radius: 0px; 
+            border-bottom-left-radius: 0px; 
+            min-height: 179px; 
+        }
+        .silex-id-1439844669849-19 {
+            width: 833px; 
+            top: 1551px; 
+            left: 0px; 
+            min-height: 157px; 
+        }
+        .silex-id-1439844669878-20 {
+            width: 834px; 
+            top: 1758px; 
+            left: 0px; 
+            background-color: rgb(255, 255, 255); 
+            background-image: url('../assets/02.jpg%5C'); 
+            background-attachment: scroll; 
+            background-size: auto; 
+            min-height: 179px; 
+        }
+        .silex-id-1439844669903-21 {
+            width: 833px; 
+            top: 1949px; 
+            left: 0px; 
+            min-height: 157px; 
+        }
+        .silex-id-1439833713274-53 {
+            width: 800px; 
+            top: 960px; 
+            left: 72px; 
+            background-color: transparent; 
+            background-size: auto; 
+            min-height: 547px; 
+        }
+        .silex-id-1439833713173-52 {
+            z-index: 300; 
+            top: 43px; 
+            width: 760px; 
+            left: 20px; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+            border-image-source: none; 
+            background-color: transparent; 
+            min-height: 192px; 
+        }
+        .silex-id-1439833713071-51 {
+            z-index: 300; 
+            top: 143px; 
+            width: 761px; 
+            left: 20px; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+            border-image-source: none; 
+            background-color: transparent; 
+            min-height: 266px; 
+        }
+        .silex-id-1439833712970-50 {
+            z-index: 300; 
+            top: 353px; 
+            width: 220px; 
+            left: 554px; 
+            border-top-color: rgb(255, 255, 255); 
+            border-right-color: rgb(255, 255, 255); 
+            border-bottom-color: rgb(255, 255, 255); 
+            border-left-color: rgb(255, 255, 255); 
+            border-image-source: none; 
+            border-top-left-radius: 10px; 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+            background-color: transparent; 
+            min-height: 49px; 
+        }
+        .silex-id-1439833712870-49 {
+            position: fixed; 
+            width: 81px; 
+            top: 187px; 
+            right: 0%; 
+            background-color: transparent; 
+            min-height: 274px; 
+        }
+        .silex-id-1439833712769-48 {
+            width: 50px; 
+            top: 10px; 
+            left: 18px; 
+            opacity: 0.8; 
+            background-image: url('../assets/face..png'); 
+            background-color: transparent; 
+            min-height: 51px; 
+        }
+        .silex-id-1439833712668-47 {
+            width: 50px; 
+            top: 67px; 
+            left: 18px; 
+            opacity: 0.8; 
+            background-image: url('../assets/twitter.png'); 
+            background-color: transparent; 
+            min-height: 50px; 
+        }
+        .silex-id-1439833712567-46 {
+            width: 50px; 
+            top: 124px; 
+            left: 18px; 
+            opacity: 0.8; 
+            background-image: url('../assets/link.png'); 
+            background-color: transparent; 
+            min-height: 50px; 
+        }
+        .silex-id-1439833712466-45 {
+            z-index: -1; 
+            width: 750px; 
+            left: 0px; 
+            top: 0px; 
+            border-top-color: rgba(240, 232, 230, 0.541176); 
+            border-right-color: rgba(240, 232, 230, 0.541176); 
+            border-bottom-color: rgba(240, 232, 230, 0.541176); 
+            border-left-color: rgba(240, 232, 230, 0.541176); 
+            border-top-style: solid; 
+            border-right-style: solid; 
+            border-bottom-style: solid; 
+            border-left-style: solid; 
+            background-color: rgb(76, 76, 76); 
+            border-top-width: 0px; 
+            border-right-width: 0px; 
+            border-bottom-width: 0px; 
+            border-left-width: 0px; 
+            min-height: 57px; 
+        }
+        .silex-id-1439833712365-44 {
+            width: 197px; 
+            left: 50px; 
+            top: 2px; 
+            background-color: transparent; 
+            min-height: 55px; 
+        }
+        .silex-id-1439833712264-43 {
+            width: 520px; 
+            background-color: transparent; 
+            background-size: auto; 
+            min-height: 67px; 
+        }
+        .silex-id-1439833712163-42 {
+            width: 147px; 
+            left: 69px; 
+            background-color: rgba(255, 255, 255, 0.521569); 
+            background-size: auto; 
+            top: 0px; 
+            min-height: 57px; 
+        }
+        .silex-id-1439833712062-41 {
+            width: 191px; 
+            left: 216px; 
+            background-color: rgba(255, 255, 255, 0.521569); 
+            background-size: auto; 
+            line-height: 0%; 
+            top: 0px; 
+            min-height: 57px; 
+        }
+        .silex-id-1439833711962-40 {
+            width: 112px; 
+            left: 407px; 
+            background-color: rgba(255, 255, 255, 0.521569); 
+            background-size: auto; 
+            top: 0px; 
+            min-height: 57px; 
+        }
+        .silex-id-1439841544265-12 {
+            width: 100px; 
+            top: 54px; 
+            background-image: url('../assets/fondo.jpg'); 
+            background-color: transparent; 
+            background-size: cover; 
+            left: 0px; 
+            background-attachment: fixed; 
+            min-height: 800px; 
+        }
+        .silex-id-1439833714283-63 {
+            width: 100px; 
+            top: 2204px; 
+            left: 0px; 
+            background-color: rgb(76, 76, 76); 
+            min-height: 200px; 
+        }
+        .silex-id-1439833714182-62 {
+            width: 100px; 
+            top: 29px; 
+            left: 17px; 
+            background-color: transparent; 
+            min-height: 147px; 
+        }
+        .silex-id-1439833714082-61 {
+            width: 448px; 
+            top: 10px; 
+            left: 10px; 
+            background-color: transparent; 
+            min-height: 126px; 
+        }
+        .silex-id-1439833713981-60 {
+            width: 300px; 
+            top: 10px; 
+            left: 491px; 
+            background-color: transparent; 
+            min-height: 126px; 
+        }
+        .silex-id-1439841544265-13 {
+            width: 100px; 
+            top: 855px; 
+            background-color: rgb(76, 76, 76); 
+            background-size: cover; 
+            left: 0px; 
+            min-height: 700px; 
+        }
+    
